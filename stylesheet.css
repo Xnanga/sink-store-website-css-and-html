@@ -1,0 +1,253 @@
+/*Beginning of Stylesheet Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Stylesheet Reset */
+
+/*Beginning of Custom Stylesheet*/
+/*Created by Jamie Peutherer*/
+
+h1 {
+	font-size: 35px;
+	color: red;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 25px;
+}
+
+footer {
+	width: 100%;
+	height: 500px;
+	color: white;
+	background-color: #686868;
+	position: relative;
+	z-index: 1;
+	border-top: 1px solid black;
+}
+
+#reduced-page-body {
+	width: 60%;
+	height: 1870px;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	padding-top: 0px;
+	position: relative;
+	z-index: 0;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#page-background {
+	width: 100%;
+	height: 100vh;
+	background-color: #979ea6;
+	position: relative;
+	z-index: -1;
+}
+
+#header-banner-strip {
+	width: 100%;
+	height: 30px;
+	background-color: grey;
+	border-bottom: 4px solid white;
+}
+
+#main-header-banner {
+	width: 100%;
+	height: 175px;
+	background-color: #dd0301;
+	border-bottom: 4px solid white;
+}
+
+#featured-image-grid {
+	width: 1120px;
+	height: 500px;
+	background-color: blue;
+	margin: 10px;
+	display: inline-block;
+}
+
+.homepage-featured-blocks-parent {
+	height : 200px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.homepage-featured-blocks {
+	display: inline-block;
+	border: 1px solid black;
+	height: 200px;
+	width: 200px;
+	margin: 13px;
+	float: left;
+}
+
+#mid-homepage-cta {
+	display: inline-block;
+	height: 50px;
+    width: 1115px;
+	background-color: red;
+	font-size: 24px;
+	color: white;
+	margin: 13px;
+	padding-top: 17px;
+}
+
+#mid-homepage-text-box {
+	text-align: left;
+	margin: 13px;
+}
+
+#mid-homepage-text-box p {
+	font-size: 18px;
+}
+
+.homepage-category-blocks-parent {
+	height : 400px;
+	width: 100%;
+	text-align: center;
+}
+
+.homepage-category-blocks {
+	display: inline-block;
+	border: 1px solid black;
+	height: 400px;
+	width: 352px;
+	margin: 13px;
+	float: left;
+}
+
+#reviews-box {
+	width: 1120px;
+	height: 300px;
+	background-color: green;
+	margin: 10px;
+	display: inline-block;
+}
+
+#header-banner-strip-editable-area-left {
+	width: 1165px;
+	margin: auto;
+}
+
+#telephone-and-opening-times-header-banner-strip {
+	float: left;
+	color: white;
+	padding-top: 6px;
+}
+
+.header-banner-strip-button-checkout {
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	width: 150px;
+	background-color: #686868;
+	color: white;
+}
+
+.header-banner-strip-button-checkout:hover {
+	background-color: green;
+}
+
+.header-banner-strip-button-cart {
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	width: 150px;
+	background-color: #898989;
+	color: white;
+}
+
+.header-banner-strip-button-cart:hover {
+	background-color: #686868;
+}
+
+#main-menu-nav-area {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 7px;
+}
+
+.main-menu-nav-button {
+	border: 1px solid black;
+	float: left;
+	width: 19.2%;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dd0301;
+	color: white;
+}
+
+.main-menu-nav-button:hover {
+	background-color: #c90503;
+}
+
+#company-logo {
+	height: 150px;
+	padding: 10px;
+	margin-left: 5px;
+}
+
+#header-banner-editable-area {
+	width: 1165px;
+	margin: auto;
+}
+
+#header-banner-promo {
+	height: 100px;
+	width: 600px;
+	padding-bottom: 30px;
+	padding-left: 70px;
+}
