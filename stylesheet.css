@@ -53,27 +53,44 @@ h1 {
 	font-size: 35px;
 	color: red;
 	margin-bottom: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
 	font-size: 30px;
 	color: red;
 	margin-bottom: 8px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer h2 {
 	font-size: 30px;
 	color: white;
 	margin-top: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
 	line-height: 25px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #dd0301;
+}
+
+#header-banner-strip a {
+	color: white;
 }
 
 footer li {
 	margin-bottom: 20px;
 	margin-left: 3px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -125,6 +142,7 @@ footer {
 	text-align: center;
 	background-color: #dd0301;
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #reduced-page-body {
@@ -206,6 +224,7 @@ footer {
 
 .homepage-featured-blocks-labels p {
 	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .homepage-featured-blocks-labels-images {
@@ -216,21 +235,26 @@ footer {
 #mid-homepage-cta {
 	display: inline-block;
 	height: 50px;
-    width: 1115px;
-	background-color: red;
-	font-size: 24px;
+    width: 97.5%;
+	background-color: #dd0301;
+	font-size: 40px;
 	color: white;
 	margin: 13px;
 	padding-top: 17px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mid-homepage-text-box {
 	text-align: left;
 	margin: 13px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #mid-homepage-text-box p {
 	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .homepage-category-blocks-parent {
@@ -241,18 +265,43 @@ footer {
 
 .homepage-category-blocks {
 	display: inline-block;
-	border: 1px solid black;
-	height: 400px;
-	width: 352px;
+	border: 3px solid #dd0301;
+	background-color: #dd0301;
+	opacity: 0.75;
+	height: 325px;
+	width: 325px;
 	margin: 13px;
-	float: left;
+	border-radius: 25px;
+	position: relative;
+}
+
+.homepage-category-blocks p {
+	color: #dd0301;
+	font-size: 35px;
+	text-align: center;
+	padding-top: 70px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 35px;
+	position: relative;
+	bottom: 160px;
+	z-index: 4;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homepage-category-blocks img {
+	height: 325px;
+	width: 325px;
+	border-radius: 25px;
 }
 
 #reviews-box {
 	width: 1120px;
-	height: 300px;
-	background-color: green;
+	height: 250px;
 	margin: 10px;
+	margin-top: 5px;
+	padding-top: 45px;
+	border-top: 2px solid #979ea6;
 	display: inline-block;
 }
 
@@ -265,6 +314,7 @@ footer {
 	float: left;
 	color: white;
 	padding-top: 6px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-banner-strip-button-checkout {
@@ -275,6 +325,7 @@ footer {
 	width: 150px;
 	background-color: #686868;
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-banner-strip-button-checkout:hover {
@@ -289,6 +340,7 @@ footer {
 	width: 150px;
 	background-color: #898989;
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-banner-strip-button-cart:hover {
@@ -301,6 +353,7 @@ footer {
 	text-align: center;
 	font-size: 25px;
 	margin-left: 7px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-menu-nav-button {
@@ -313,6 +366,7 @@ footer {
 	padding-bottom: 10px;
 	background-color: #dd0301;
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-menu-nav-button:hover {
@@ -320,9 +374,12 @@ footer {
 }
 
 #company-logo {
-	height: 150px;
+	height: 140px;
 	padding: 10px;
 	margin-left: 5px;
+	background-color: white;
+	border-radius: 40px;
+	margin-top: 6px;
 }
 
 #header-banner-editable-area {
@@ -335,4 +392,12 @@ footer {
 	width: 600px;
 	padding-bottom: 30px;
 	padding-left: 70px;
+}
+
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
 }
