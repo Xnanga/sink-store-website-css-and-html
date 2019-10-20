@@ -55,23 +55,81 @@ h1 {
 	margin-bottom: 10px;
 }
 
+h2 {
+	font-size: 30px;
+	color: red;
+	margin-bottom: 8px;
+}
+
+footer h2 {
+	font-size: 30px;
+	color: white;
+	margin-top: 40px;
+}
+
 p {
 	line-height: 25px;
 }
 
+footer li {
+	margin-bottom: 20px;
+	margin-left: 3px;
+}
+
 footer {
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	color: white;
 	background-color: #686868;
 	position: relative;
 	z-index: 1;
-	border-top: 1px solid black;
+	border-top: 4px solid white;
+}
+
+#footer-grid-container {
+	display: grid;
+	grid-template-columns: 15%;
+	grid-template-rows: 90% 10%;
+	margin-top: 15px;
+}
+
+.footer-grid-item-a {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.footer-grid-item-b {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.footer-grid-item-c {
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.footer-grid-item-d {
+	grid-column-start: 5;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.footer-bottom-message {
+	text-align: center;
+	background-color: #dd0301;
+	color: white;
 }
 
 #reduced-page-body {
 	width: 60%;
-	height: 1870px;
+	height: 1910px;
 	background-color: white;
 	margin: auto;
 	text-align: center;
@@ -79,7 +137,7 @@ footer {
 	padding-top: 0px;
 	position: relative;
 	z-index: 0;
-	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family: 'Open Sans','Helvetica Neue', 'Helvetica' ,' Arial' , 'sans-serif';
 }
 
 #page-background {
@@ -126,6 +184,33 @@ footer {
 	width: 200px;
 	margin: 13px;
 	float: left;
+}
+
+.homepage-featured-blocks:hover {
+	position: relative;
+	bottom: 10px;
+}
+
+.homepage-featured-blocks-labels {
+	background-color: grey;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	position: relative;
+	padding-top: 20px;
+	z-index: 3;
+	bottom: 64px;
+	opacity: 0.9;
+}
+
+.homepage-featured-blocks-labels p {
+	font-size: 20px;
+}
+
+.homepage-featured-blocks-labels-images {
+	height: 200px;
+	width: 200px;
 }
 
 #mid-homepage-cta {
