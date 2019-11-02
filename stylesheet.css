@@ -44,10 +44,16 @@ table {
 	border-spacing: 0;
 }
 
-/* End of Stylesheet Reset */
+/* End of Stylesheet Reset
 
-/*Beginning of Custom Stylesheet*/
-/*Created by Jamie Peutherer*/
+Beginning of Custom Stylesheet
+Created by Jamie Peutherer
+
+Homepage Styling*/
+
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 h1 {
 	font-size: 35px;
@@ -180,10 +186,27 @@ footer {
 	border-bottom: 4px solid white;
 }
 
+.header-circle {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	border: 2px solid lightgrey;
+	border-radius: 50px;
+	background-color: green;
+	color: white;
+	font-size: 16px;
+	float: right;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
 #featured-image-grid {
 	width: 1120px;
 	height: 500px;
-	background-color: blue;
 	margin: 10px;
 	display: inline-block;
 }
@@ -265,33 +288,35 @@ footer {
 
 .homepage-category-blocks {
 	display: inline-block;
-	border: 3px solid #dd0301;
-	background-color: #dd0301;
-	opacity: 0.75;
-	height: 325px;
-	width: 325px;
+	border: 2px solid #dd0301;
+	height: 320px;
+	width: 320px;
 	margin: 13px;
 	border-radius: 25px;
 	position: relative;
 }
 
 .homepage-category-blocks p {
-	color: #dd0301;
-	font-size: 35px;
+	color: white;
+	font-size: 30px;
 	text-align: center;
-	padding-top: 70px;
 	padding-left: 15px;
 	padding-right: 15px;
 	line-height: 35px;
 	position: relative;
-	bottom: 160px;
+	bottom: 148px;
 	z-index: 4;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: grey;
+	margin-top: 75px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	opacity: 0.9;
 }
 
 .homepage-category-blocks img {
-	height: 325px;
-	width: 325px;
+	height: 320px;
+	width: 320px;
 	border-radius: 25px;
 }
 
@@ -300,7 +325,7 @@ footer {
 	height: 250px;
 	margin: 10px;
 	margin-top: 5px;
-	padding-top: 45px;
+	padding-top: 35px;
 	border-top: 2px solid #979ea6;
 	display: inline-block;
 }
@@ -374,11 +399,12 @@ footer {
 }
 
 #company-logo {
-	height: 140px;
+	height: 130px;
 	padding: 10px;
 	margin-left: 5px;
-	background-color: white;
+	background-color: lightgrey;
 	border-radius: 40px;
+	border: 5px solid grey;
 	margin-top: 6px;
 }
 
@@ -400,4 +426,51 @@ footer a:link {
 
 footer a:visited {
 	color: white;
+}
+
+/*Product Category Page Styling*/
+
+#product-page-content-block {
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+#product-page-content-block img {
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#product-page-sidebar {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	height: 1200px;
+	padding-left: 12px;
+	margin-left: 12px;
+	text-align: left;
+	border-right: 2px solid grey;
+	opacity: 0.9;
+}
+
+#product-page-sidebar h2 {
+	font-size: 22px;
+	padding-top: 15px;
+}
+
+#product-catalogue-grid {
+	width: 500px;
+	height: 1000px;
+	float: left;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: minmax(100px, auto);
+}
+
+.product-grid-item {
+	height: 100px;
+	width: 100px;
 }
